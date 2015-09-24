@@ -12,16 +12,16 @@
   },
   "main": "./lib/passport-qq",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "pkginfo": "^0.3.x",
+    "passport-oauth": "^1.0.0"
   },
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "^0.8.x"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" },
+  "engines": { "node": ">= 4.0.0" },
   "licenses": [ {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
