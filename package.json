@@ -12,11 +12,11 @@
   },
   "main": "./lib/passport-qq",
   "dependencies": {
-    "pkginfo": "^0.3.x",
+    "pkginfo": "^0.3.0",
     "passport-oauth": "^1.0.0"
   },
   "devDependencies": {
-    "vows": "^0.8.x"
+    "vows": "^0.9.0"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
